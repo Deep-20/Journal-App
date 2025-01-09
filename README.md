@@ -1,19 +1,28 @@
-**Journal App** 📓
-A simple and intuitive journal application built with Spring Boot. This project allows users to create, view, edit, and delete journal entries, providing a secure and user-friendly platform for personal journaling.
+<h1 align="center">Journal App 📓</h1>
 
-**Features**
-User authentication and authorization.
-Create, read, update, and delete (CRUD) journal entries.
-Timestamped entries for easy tracking.
+<p>A simple and intuitive journal application built with Spring Boot. This project allows users to create, view, edit, and delete journal entries. </p>
 
-**Tech Stack**
-Backend: Spring Boot, Spring Security, Hibernate, JPA
-Database: MongoDB
-Build Tools: Maven
+<h2>Features</h2>
+<ul>
+  <li>🔒 <strong>User Authentication and Authorization</strong></li>
+  <li>✍️ <strong>Create, Read, Update, and Delete (CRUD) Journal Entries</strong></li>
+  <li>🕒 <strong>Timestamped Entries for Easy Tracking</strong></li>
+</ul>
 
-Feel free to clone and customize the app for your own journaling needs!
+<h2>Tech Stack</h2>
+<ul>
+  <li><strong>Backend:</strong> Spring Boot, Spring Security, Hibernate, JPA</li>
+  <li><strong>Database:</strong> MongoDB</li>
+  <li><strong>Build Tools:</strong> Maven</li>
+</ul>
 
-**Configuration**
-To run the application, users must specify their MongoDB connection URI in the application.properties file.
+<h2>Configuration</h2>
+<p>To run the application, you need to specify your MongoDB connection URI in the <code>application.properties</code> file:</p>
 
-spring.data.mongodb.uri=mongodb+srv://<username>:<password>@<cluster-url>/<database>?retryWrites=true&w=majority
+<pre>
+spring.data.mongodb.uri=mongodb+srv://&lt;username&gt;:&lt;password&gt;@&lt;cluster-url&gt;/?retryWrites=true&w=majority
+</pre>
+
+<p>Replace <code>&lt;username&gt;</code>, <code>&lt;password&gt;</code>, <code>&lt;cluster-url&gt;</code>  with your MongoDB credentials.</p>
+
+<p align="center">Feel free to clone and customize the app for your journaling needs! 🚀</p>
